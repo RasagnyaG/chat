@@ -21,7 +21,7 @@ export default function Chats() {
 
       <hr />
       {/* messages  */}
-      <div className="overflow-y-auto" style={{ maxHeight: "80vh",  height:'80vh'}}>
+      <div className="overflow-y-auto" style={{ maxHeight: "75vh"}}>
         <Message message={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi libero inventore nostrum, necessitatibus error doloribus dolore qui fugit eaque pariatur hic aliquid numquam ipsum ut? Repellendus natus rerum veritatis temporibus consequatur, ipsam, placeat quaerat magni facere iusto aliquid ratione consectetur.'} timeStamp='10:30 pm'/>
 
         <Message message={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi libero inventore nostrum, necessitatibus error doloribus dolore qui fugit eaque pariatur hic aliquid numquam ipsum ut? Repellendus natus rerum veritatis temporibus consequatur, ipsam, placeat quaerat magni facere iusto aliquid ratione consectetur.'} timeStamp='10:30 pm' avatar='url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D)'/>
@@ -38,7 +38,7 @@ export default function Chats() {
 
       
       {/* input  */}
-      <div className="container-fluid">
+      <div className="container-fluid" style={{position:"relative",width:"90%",bottom:"2rem"}}>
           <div className="input-group input-group-lg shadow p-1 bg-body-tertiary rounded-4">
           <input type="text" value={message} onChange={(e)=>{setMessage(e.target.value)}} className="form-control chatInput" placeholder='Type Here' aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"/>
           {/* button  */}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "../home.css"
+import "../pages/home/home.css"
 import axios from 'axios'
 import Error from '@/components/error'
 
