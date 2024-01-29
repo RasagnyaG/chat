@@ -11,6 +11,16 @@
     z-index: 999;
   }
   
-  .popup-container {
-    text-align: center;
+.popup-container {
+  text-align: center;
+  animation: slideInFromTop 0.5s ease-out forwards;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-150%);
   }
+  100% {
+    transform: translateY(0);
+  }
+}
