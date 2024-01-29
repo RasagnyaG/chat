@@ -1,10 +1,10 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import Hamburger from './components/hamburger'
-import Profile from './components/profile'
-import ChatsList from './components/Contacts/chatsList'
-import Chats from './components/chats'
-import Groups from './components/Contacts/groupList'
+import Hamburger from '@/components/hamburger'
+import Profile from '@/components/profile'
+import ChatsList from '@/components/Contacts/chatsList'
+import Chats from '@/components/chats'
+import Groups from '@/components/Contacts/groupList'
 
 
 
